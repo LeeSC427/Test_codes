@@ -1,0 +1,7 @@
+<launch>
+  <node respawn="true" pkg="yaw_from_lidar" type="yaw_from_lidar" name="yaw_from_lidar" output="screen">
+      <param name="Debug_mode"            type="bool"    value="true"  />
+      <param name="Cutoff_Freq"           type="double"  value="10.5"  />
+      <param name="m_to_pixel"            type="int"     value="500"  />
+  </node>
+</launch>
